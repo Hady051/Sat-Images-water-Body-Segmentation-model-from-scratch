@@ -10,9 +10,13 @@
 
 ### For all notebooks
 
+* Matched the correct masks to images, since there are more masks than images in the dataset folder.
+
 * I applied Min Max Scaler for Normalization instead of dividing by 255 because for some bands, the pixel intensity is above 255.
 
 * Visualized each band of the images
+
+* Implemented a Unet Model from scratch with about 41 million paramters to try to work well with the data using `Tensorflow` and `Keras`
 
 * Visualized the Model's **accuracies**, **losses** and **IOU** curves.
 
